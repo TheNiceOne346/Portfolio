@@ -13,7 +13,7 @@ export const profile = {
   photo: `${import.meta.env.BASE_URL}simon.jpg`,
   tagline:
     'Gameplay Programmer focused on player movement, gameplay systems, and creating satisfying player experiences in Unity and Unreal.',
-  location: 'Skåne, Ängelholm, Sweden',
+  location: 'Skåne, Sweden',
   availability: 'Open',
   availabilityDetail: 'Open to on-site in Skåne and remote roles across Sweden',
   lookingFor: [
@@ -31,7 +31,7 @@ export const profile = {
   currently: [
     { label: 'Graduated from Futuregames (2025)' },
     { label: 'Completed internship at Akribian Edtech AB' },
-    { label: 'Based in Ängelholm, Sweden' },
+    { label: 'Based in Skåne, Sweden' },
     { label: 'Looking for a Junior Gameplay Programmer position' },
   ] satisfies CurrentlyItem[],
   skillRatings: [

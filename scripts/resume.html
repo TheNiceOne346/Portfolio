@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simon Olsson - Resume</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Calibri, Arial, sans-serif;
+        font-size: 10pt;
+        line-height: 1.28;
+        color: #000;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 11mm 13mm 10mm;
+        page-break-after: always;
+      }
+
+      .page:last-child {
+        page-break-after: auto;
+      }
+
+      .title {
+        margin: 0 0 8mm;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17pt;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .contact-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8mm;
+        margin-bottom: 5mm;
+      }
+
+      .contact-text {
+        flex: 1;
+        font-size: 9.5pt;
+        line-height: 1.35;
+      }
+
+      .contact-label {
+        display: inline-block;
+        margin-bottom: 1.5mm;
+        font-weight: 700;
+        text-decoration: underline;
+      }
+
+      .contact-text p {
+        margin: 0 0 1.5mm;
+      }
+
+      .contact-text a {
+        color: #0563c1;
+        text-decoration: underline;
+      }
+
+      .photo {
+        width: 34mm;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        object-position: center 18%;
+      }
+
+      .section {
+        margin-top: 4mm;
+      }
+
+      .section h2 {
+        margin: 0 0 1.5mm;
+        font-size: 10pt;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .section.line h2 {
+        border-bottom: 0.6pt solid #000;
+        padding-bottom: 0.8mm;
+      }
+
+      .section p {
+        margin: 0;
+      }
+
+      .skills {
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 9.5pt;
+      }
+
+      .split {
+        display: grid;
+        grid-template-columns: 16mm 1fr;
+        column-gap: 4mm;
+        row-gap: 2mm;
+        align-items: start;
+      }
+
+      .split .year {
+        font-size: 9.5pt;
+      }
+
+      .split .detail strong {
+        font-weight: 700;
+      }
+
+      .split .detail p {
+        margin-top: 0.5mm;
+      }
+
+      .projects ul {
+        margin: 0;
+        padding-left: 4.5mm;
+      }
+
+      .projects li {
+        margin-bottom: 2mm;
+      }
+
+      .achievements p {
+        margin: 0 0 1mm;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page">
+      <h1 class="title">RESUME - SIMON OLSSON</h1>
+
+      <div class="contact-block">
+        <div class="contact-text">
+          <div class="contact-label">Contact</div>
+          <p><strong>Mobile number :</strong> +46760-467001</p>
+          <p><strong>Mail :</strong> <a href="mailto:SimonOlsson9231@gmail.com">SimonOlsson9231@gmail.com</a></p>
+          <p><strong>Address:</strong> Trapetsgatan 24E</p>
+          <p>262 55 Ängelholm</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/simon-olsson-036a93233/">Simon Olsson</a></p>
+          <p><strong>Portfolio :</strong> <a href="https://simon936-git.github.io/Portfolio/">https://simon936-git.github.io/Portfolio/</a></p>
+        </div>
+        <img class="photo" src="../public/simon.jpg" alt="Simon Olsson" />
+      </div>
+
+      <div class="section">
+        <h2>SUMMARY</h2>
+        <p>
+          Currently advancing my skills in Unity and Unreal Engine, with knowledge in C# and C++, I am
+          enthusiastic about expanding my knowledge and problem-solving abilities in game development. I
+          am particularly interested in exploring AI programming and the gameplay features within games. In
+          my previous projects, I have created several games using Unity and Unreal Engine.
+        </p>
+      </div>
+
+      <div class="section line">
+        <h2>SKILLS</h2>
+        <p class="skills">Unity C# C++ MobileGame Development GamePlay Scripting Unreal Engine Shaders</p>
+      </div>
+
+      <div class="section line">
+        <h2>EDUCATION</h2>
+        <div class="split">
+          <div class="year">2017-2020</div>
+          <div class="detail">
+            <strong>IT Program with a focus on Game Development</strong>
+            <p>A three-year high school education at Ljud och Bildskolan in Helsingborg.</p>
+          </div>
+          <div class="year">2019</div>
+          <div class="detail">
+            <strong>Inventums Filmkollo</strong>
+            <p>
+              I have also participated in Inventum's Film Camp where I completed training in
+              scriptwriting, dramaturgy, photography, workshops, film production, acting, directing,
+              and night shoots during my time there.
+            </p>
+          </div>
+          <div class="year">2023-2025</div>
+          <div class="detail">
+            <strong>Game Programmer (Specialization)</strong>
+            <p>
+              I have studied two and a half years of vocational college education at Futuregames in
+              Malmö.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section line projects">
+        <h2>PROJECTS</h2>
+        <ul>
+          <li>
+            <strong>Mandragora(Unity, PC)</strong><br />
+            During my studies I Contributed to the “Mandragora” project by focusing on gameplay
+            features such as player pickups, movement mechanics and overall coding in a collaborative
+            group project. See more about the project in my portfolio .
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="section projects">
+        <ul>
+          <li>
+            <strong>Drain Dash(Unity, Mobile)</strong><br />
+            During my studies I contributed to the "Drain Dash" project, specializing in gameplay
+            mechanics involving scriptable objects, gameplay features like the boost system and
+            debugging within a collaborative group project. See more about the project in my portfolio.
+          </li>
+          <li>
+            <strong>Bloom (Unreal Engine, PC)</strong><br />
+            During my studies I made contributions to the "Bloom" project by focusing on gameplay
+            mechanics like movement and spawner systems in a collaborative group project. See more
+            about the project in my portfolio.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section line">
+        <h2>PREVIOUS WORK EXPERIENCE</h2>
+        <div class="split">
+          <div class="year">2026-</div>
+          <div class="detail">
+            <strong>ICA De Helsingborg, Customer Support (Summer temp)</strong>
+            <p>
+              Customer support for missing goods via phone, email, and chat. Focus on service,
+              problem-solving, and communication.
+            </p>
+          </div>
+          <div class="year">2026-</div>
+          <div class="detail">
+            <strong>Ängelholms kommun, Recreation Leader (Part-time)</strong>
+            <p>
+              Work with youth at a recreation center, supporting participation, initiative, and an
+              inclusive environment.
+            </p>
+          </div>
+          <div class="year">2025</div>
+          <div class="detail">
+            <strong>Akribian AB, Intern</strong>
+            <p>
+              Internship focused on game programming and the development of educational games in
+              Unity. Worked with C# and Playmaker to implement game mechanics and interactive
+              features.
+            </p>
+          </div>
+          <div class="year">2016-2018</div>
+          <div class="detail">
+            <strong>Abc Euro Soft AB, Part-time employee</strong>
+            <p>Production employee alongside my studies.</p>
+          </div>
+          <div class="year">2020</div>
+          <div class="detail">
+            <strong>SydFrys Hyllinge, On-call/temporary employee</strong>
+            <p>Warehouse worker. Packaged crates for storage in the freezer room.</p>
+          </div>
+          <div class="year">2020</div>
+          <div class="detail">
+            <strong>Pub Nessie, Part-time employee</strong>
+            <p>
+              Dishwasher. Worked in the kitchen washing dishes and kitchen utensils, among other
+              tasks.
+            </p>
+          </div>
+          <div class="year">2021</div>
+          <div class="detail">
+            <strong>ICA De Helsingborg, Full-time summer substitute position</strong>
+            <p>
+              At the loading dock as a warehouse worker, tasks included retrieving RC cages filled with
+              goods for loading onto trucks.
+            </p>
+          </div>
+          <div class="year">2022</div>
+          <div class="detail">
+            <strong>Hornbach Helsingborg, Probationary employment at 75% capacity</strong>
+            <p>
+              Store clerk handling goods distribution and service desk duties, including distributing
+              items to customers who have placed orders.
+            </p>
+          </div>
+          <div class="year">2022-2023</div>
+          <div class="detail">
+            <strong>Clas Ohlson Väla, On-call/temporary employee</strong>
+            <p>
+              Retail associate tasked with duties including merchandise presentation and providing
+              overall customer service in the store.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section line">
+        <h2>ADDITIONAL ACHIEVEMENTS AND LANGUAGES</h2>
+        <div class="achievements">
+          <p>Swedish: Native language</p>
+          <p>English: Fluent in speech and writing</p>
+          <p>Spanish: Basic understanding</p>
+          <p>Driver's License: B-license and access to a car</p>
+        </div>
+      </div>
+
+      <div class="section line">
+        <h2>REFERENCES</h2>
+        <p>Available upon request.</p>
+      </div>
+    </section>
+  </body>
+</html>
