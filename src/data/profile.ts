@@ -16,11 +16,7 @@ export const profile = {
   location: 'Skåne, Sweden',
   availability: 'Open',
   availabilityDetail: 'Open to on-site in Skåne and remote roles across Sweden',
-  lookingFor: [
-    'Junior Gameplay Programmer',
-    'Gameplay Systems Programmer',
-    'AI Programmer',
-  ],
+  lookingFor: ['Open to multiple roles in IT'],
   email: 'SimonOlsson9231@gmail.com',
   github: 'https://github.com/Simon936-Git',
   linkedin: 'https://www.linkedin.com/in/simon-olsson-036a93233/',
@@ -32,7 +28,7 @@ export const profile = {
     { label: 'Graduated from Futuregames (2025)' },
     { label: 'Completed internship at Akribian Edtech AB' },
     { label: 'Based in Skåne, Sweden' },
-    { label: 'Looking for a Junior Gameplay Programmer position' },
+    { label: 'Open to multiple roles in IT' },
   ] satisfies CurrentlyItem[],
   skillRatings: [
     { name: 'Gameplay Programming', level: 4 },
